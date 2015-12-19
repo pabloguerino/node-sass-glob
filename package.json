@@ -1,0 +1,27 @@
+{
+  "name": "node-sass-glob",
+  "version": "0.0.0",
+  "description": "Globbing for node-sass!",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPGhatguy/node-sass-glob.git"
+  },
+  "keywords": [
+  ],
+  "author": "Lucien Greathouse <me@lpghatguy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LPGhatguy/node-sass-glob/issues"
+  },
+  "homepage": "https://github.com/LPGhatguy/node-sass-glob#readme",
+  "dependencies": {
+    "glob": "^6.0.1"
+  }
+}
