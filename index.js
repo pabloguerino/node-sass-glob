@@ -5,10 +5,10 @@ const path = require("path");
 
 module.exports = function(url, prev, done) {
 	if (!glob.hasMagic(url)) {
-		return done({file: url});
+		return null;
 	}
 
-	let cwd = path.join(this.options.includePaths, path.dirname(prev));
+    let cwd = path.dirname(prev);
 
 	glob(url, {cwd: cwd}, (err, files) => {
 		if (err) {
