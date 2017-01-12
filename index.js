@@ -8,7 +8,7 @@ module.exports = function(url, prev, done) {
 		return null;
 	}
 
-    let cwd = path.dirname(prev);
+	let cwd = path.dirname(prev);
 
 	glob(url, {cwd: cwd}, (err, files) => {
 		if (err) {
